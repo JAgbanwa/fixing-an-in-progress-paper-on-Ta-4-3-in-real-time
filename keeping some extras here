@@ -94,3 +94,73 @@ We finally merge equations \eqref{1.24} and \eqref{1.25} to yield:
 \begin{equation}\label{1.05}
     e^3 + f^3 = g^3 + h^3
 \end{equation}
+
+******************(As usual again!!!)******************
+
+Given the merger of equations \eqref{1.24} and \eqref{1.25} in the previous section above, we make the following suppositions:
+\begin{equation*}
+    n_1 = 3, n_2 = 9, n_3 = 27, n_4 = 81, n_5 = 243, n_6 = 729
+\end{equation*}
+
+Given the above supposition, the equation \eqref{1.23} can be re-expressed as:
+
+\begin{equation}\label{1.231}
+    729 \cdot g^2 + 177147 \cdot g + 14348907 = 2187 \cdot f^2 + 1594323 \cdot f + 387420489
+\end{equation}
+and on dividing both sides of the equation by $729$, the following is yielded:
+\begin{equation}\label{1.233}
+   g^2 + 243\cdot g + 19683 = 3\cdot f^2 + 2187 \cdot f + 531441
+\end{equation}
+\begin{equation}\label{1.234}
+   g^2 + 243\cdot g + 19683 = 3\cdot (f^2 + 729 \cdot f + 177147)
+\end{equation}
+\begin{align*}\label{1.237}
+   (g^2 + 243\cdot g) - 3\cdot ( f^2 + 729 \cdot f) - 511758 &= 0 \\
+   (g + \dfrac{243}{2})^2 -\dfrac{243^2}{4} - 3\cdot \biggl[(f + \dfrac{729}{2})^2 - \dfrac{729^2}{4}\biggl] - 511758 &= 0 \\
+   (g + \dfrac{243}{2})^2 - 3 \cdot (f + \dfrac{729}{2})^2-\dfrac{243^2}{4} - 3\cdot \biggl(- \dfrac{729^2}{4}\biggl) - 511758 &= 0 \\
+   (g + \dfrac{243}{2})^2 - 3 \cdot (f + \dfrac{729}{2})^2 &= \dfrac{59037}{4} \\
+   (2g + 243)^2 - 3 \cdot (2 f + 729)^2 &= 59037 \\
+\end{align*}
+
+whose family of solutions are solved for as follows:
+
+\[
+\begin{aligned}
+x_t &= \frac{(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t}{2},\\[6pt]
+y_t &= \frac{(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t}{2\sqrt{3}}.
+\end{aligned}
+\]
+
+where $x_t = (2g + 243)$ and $y_t = (2 f + 729)$\\
+
+\begin{align*}
+    g &= \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 486}{4}\\
+    f &= \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1458\sqrt{3}}{4\sqrt3}
+\end{align*}
+
+Recall that, given \eqref{1.12}, $e = g + n_5$: 
+
+\begin{equation*}
+    e = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] +  486}{4}
+\end{equation*}
+ and from \eqref{1.050}, $f = b + n_2 + n_4$:
+\begin{equation}
+    b = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1818\sqrt3}{4\sqrt3} 
+\end{equation}
+Based on \eqref{1.047}, $d = b + n_2$,
+\begin{equation*}
+    d = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1818\sqrt3}{4\sqrt3} + 3
+\end{equation*}
+We also then consider that from \eqref{1.21}, $c = g + n_3 + n_5$. Then $c(t)$ is expressible as:
+\begin{align*}
+    c &= \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 486}{4} + 270\\
+     &= \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] + 594}{4} 
+\end{align*}
+Considering equation \eqref{1.0499}, where $a = e + n_1 + n_3$ and given the suppositions of section 4, $a = e + 30$:
+\begin{equation*}
+    a = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] +  606}{4} 
+\end{equation*}
+From equation \eqref{1.051}, $h = b + n_2 + n_4 + n_6$ and given the suppositions in section 4, $h = b + 819$. Thus,
+\begin{align*}
+    h = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] + 1458\sqrt3}{4\sqrt3} 
+\end{align*}
