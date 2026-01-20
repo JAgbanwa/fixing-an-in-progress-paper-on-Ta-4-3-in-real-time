@@ -77,5 +77,8 @@ We finally merge equations \eqref{1.24} and \eqref{1.25} to yield:
     (3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3) - (3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3)
 \end{multline}
 
+******************(Even more equations here)******************
 
-
+\begin{equation}\label{1.23}
+    3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3 = 3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3
+\end{equation}
