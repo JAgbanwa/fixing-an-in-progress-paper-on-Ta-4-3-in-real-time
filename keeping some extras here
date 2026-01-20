@@ -1,0 +1,54 @@
+******************(Keeping a chunk here on other extras)******************
+
+Equation \eqref{1.05} can be re-expressed as follows:
+
+\begin{equation} \label{1.09}
+    e^3 - g^3 = h^3 - f^3
+\end{equation}
+
+\begin{equation}
+    e^3 - g^3 = \Delta
+\end{equation}
+
+\begin{equation} \label{1.11}
+    3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3 = \Delta
+\end{equation}
+
+\begin{equation} \label{1.12}
+    \boxed{e = g + n_5}
+\end{equation}
+
+We now consider the RHS of \eqref{1.05}
+
+\begin{equation} \label{1.06}
+    h^3 - f^3 = \Delta
+\end{equation}
+
+\begin{equation} \label{1.13}
+    3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3 = \Delta
+\end{equation}
+
+\begin{equation} \label{1.14}
+    h = f + n_6
+\end{equation}
+
+On substituting equation \eqref{1.071} into equation \eqref{1.049}, the resulting equation is:
+\begin{equation} \label{1.0499}
+    \boxed{a = e + n_1 + n_3}
+\end{equation}
+
+When equation \eqref{1.047} is substituted into equation \eqref{1.079}, the resulting equation is:
+\begin{equation}\label{1.050}
+    \boxed{f = b + n_2 + n_4}
+\end{equation}
+And on further substitution of \eqref{1.079} into equation \eqref{1.050}, below is the corresponding formula for $h$:
+\begin{equation}\label{1.051}
+    \boxed{h = b + n_2 + n_4 + n_6}
+\end{equation}
+
+When equation \eqref{1.12} is also substituted into equation \eqref{1.071}, the resultant equation is seen below:
+
+\begin{equation} \label{1.21}
+     \boxed{c = g + n_3 + n_5}
+\end{equation}
+
