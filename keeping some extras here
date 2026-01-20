@@ -52,3 +52,8 @@ When equation \eqref{1.12} is also substituted into equation \eqref{1.071}, the 
      \boxed{c = g + n_3 + n_5}
 \end{equation}
 
+******************(Keeping equation \eqref{1.24})******************
+
+\begin{equation}\label{1.24}
+    (3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3) - (3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3) = 0
+\end{equation}
