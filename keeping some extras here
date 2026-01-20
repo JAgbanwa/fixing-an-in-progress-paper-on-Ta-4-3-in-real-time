@@ -57,3 +57,25 @@ When equation \eqref{1.12} is also substituted into equation \eqref{1.071}, the 
 \begin{equation}\label{1.24}
     (3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3) - (3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3) = 0
 \end{equation}
+
+******************(Keeping more equations here)******************
+
+We subtract equation \eqref{1.20} from \eqref{1.22} which yields:
+
+\begin{equation*}
+     (3n_1 \cdot c^2 + 3n_1 ^2 \cdot c + n_1 ^3) - (3n_3 \cdot e^2 + 3n_3 ^2 \cdot e + n_3 ^3) = (3n_2 \cdot b^2 + 3n_2 ^2 \cdot b + n_2 ^3) - (3n_4 \cdot d^2 + 3n_4^2 \cdot d + n_4^3)\\
+\end{equation*}
+
+\begin{equation} \label{1.25}
+    (3n_1 \cdot c^2 + 3n_1 ^2 \cdot c + n_1 ^3) - (3n_3 \cdot e^2 + 3n_3 ^2 \cdot e + n_3 ^3) + (3n_4 \cdot d^2 + 3n_4^2 \cdot d + n_4^3) - (3n_2 \cdot b^2 + 3n_2 ^2 \cdot b + n_2 ^3)= 0 
+\end{equation}
+
+We finally merge equations \eqref{1.24} and \eqref{1.25} to yield:
+
+\begin{multline} \label{1.26}
+    (3n_1 \cdot c^2 + 3n_1 ^2 \cdot c + n_1 ^3) - (3n_3 \cdot e^2 + 3n_3 ^2 \cdot e + n_3 ^3) + (3n_4 \cdot d^2 + 3n_4^2 \cdot d + n_4^3) - (3n_2 \cdot b^2 + 3n_2 ^2 \cdot b + n_2 ^3) = \\
+    (3n_5 \cdot g^2 + 3n_5^2 \cdot g + n_5^3) - (3n_6 \cdot f^2 + 3n_6^2 \cdot f + n_6^3)
+\end{multline}
+
+
+
