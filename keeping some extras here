@@ -164,3 +164,35 @@ From equation \eqref{1.051}, $h = b + n_2 + n_4 + n_6$ and given the supposition
 \begin{align*}
     h = \dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] + 1458\sqrt3}{4\sqrt3} 
 \end{align*}
+
+******************(Testing the validity of the sums)******************
+
+\section{Testing the validity of the sums}
+
+Per the parametrizations in section 4, we re-express $N$ as follows:
+
+\begin{multline*}
+    N(t) = \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] +  606}{4} \right)^3 + \\
+       \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1818\sqrt3}{4\sqrt3}\right)^3
+\end{multline*}
+\begin{multline*}
+    N(t) = \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] + 594}{4} \right)^3 + \\
+       \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1818\sqrt3}{4\sqrt3} + 3\right)^3
+\end{multline*}
+\begin{multline*}
+    N(t) = \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] +  486}{4}\right)^3 + \\
+       \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 1458\sqrt{3}}{4\sqrt3}\right)^3
+\end{multline*}
+\begin{multline*}
+        N(t) = \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t + (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] - 486}{4}\right)^3 + \\
+       \left(\dfrac{\left[(492 + 247\sqrt{3})(2 + \sqrt{3})^t - (492 - 247\sqrt{3})(2 - \sqrt{3})^t\right] + 1458\sqrt3}{4\sqrt3}\right)^3
+\end{multline*}
+We first test the validity of the above formulas for some arbitrary cases:
+Let $t = 1$,
+
+\begin{align*}
+  2^3 \cdot N(1) &= 2028^3 + 77^3 \\
+                    &= 2022^3 + 83^3 \\
+                    &= 1968^3 + 257^3 \\
+                    &= 1482^3 + 1715^3 \\
+\end{align*}
